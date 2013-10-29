@@ -1,8 +1,8 @@
 /**
  * @license
- * Physiogame <https://github.com/majodev/physiogame>
+ * requirejs-template-project <https://github.com/majodev/physiogame>
  * Copyright 2013 Mario Ranftl (@majodev) <http://majodev.com>
- * Available under GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
+ * Available under MIT License (MIT)
  */
 define(["log", "underscore", "Poll", "appConfig"],
   function(log, _, Poll, appConfig) {

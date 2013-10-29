@@ -1,0 +1,8 @@
+{
+  "name": "requirejs-nodewebkit-template-project",
+  "version": "0.0.1",
+  "dependencies": {
+    "loglevel": "~0.5.0",
+    "polljs": "https://github.com/mtrpcic/polljs.git#711baafeb92f7002f97f35a3c55d414592f7830a"
+  }
+}

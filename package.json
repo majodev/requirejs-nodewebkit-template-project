@@ -1,0 +1,37 @@
+{
+  "name": "requirejs-nodewebkit-template-project",
+  "version": "0.0.1",
+  "dependencies": {
+    "requirejs": "~2.1.9",
+    "lodash": "~2.2.1",
+    "almond": "~0.2.6"
+  },
+  "devDependencies": {
+    "bower": "latest",
+    "http-server": "~0.5.5",
+    "chai": "~1.7.2",
+    "mocha": "~1.12.0",
+    "phantomjs": "~1.9.1-8",
+    "mocha-phantomjs": "3.1.2",
+    "grunt-cli": "~0.1.9",
+    "grunt-contrib-watch": "~0.5.2",
+    "grunt-shell": "~0.3.1",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-cssmin": "~0.6.1",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-node-webkit-builder": "~0.1.11"
+  },
+  "main": "index.html",
+  "window": {
+    "title": "requirejs-nodewebkit-template-project",
+    "show": true,
+    "toolbar": true,
+    "frame": true,
+    "position": "center",
+    "width": 1280,
+    "height": 720,
+    "min_width": 640,
+    "min_height": 360
+  },
+  "private": true
+}

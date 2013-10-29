@@ -1,0 +1,17 @@
+{
+  "name": "requirejs-nodewebkit-template-project",
+  "version": "0.0.1",
+  "main": "index.html",
+  "window": {
+    "title": "requirejs-nodewebkit-template-project",
+    "show": true,
+    "toolbar": false,
+    "frame": true,
+    "position": "center",
+    "width": 1280,
+    "height": 720,
+    "min_width": 640,
+    "min_height": 360
+  },
+  "private": true
+}

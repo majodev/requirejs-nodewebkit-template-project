@@ -39,6 +39,30 @@ Extracted from <a href="https://github.com/majodev/physiogame">physiogame</a>
 
 `src/vendor` (bower) 3rd party libs
 
+<h2>Important files</h2>
+
+`app.css`: your main css file, will be minified into `build/app.min.css`
+
+`app.js` and `build-templates/app.js`: development startup script and productive startup script, productive will be minified into `build/app.min.js`
+
+`bower.json`: dependencies from bower package repository (will be installed into `src/vendor/`)
+
+`Gruntfile.js`: all grunt build and release tasks
+
+`index.html` and `build-templates/index.html`: main html file with app.js or app.min.js in body
+
+`package.json`: dependencies from npm package repository (will be installed into `node_modules`)
+
+`testrunner.html`: main file to start spec and integration tests (phantomjs compatible)
+
+`scripts/build-almond.js`: r.js build file (uses almond, smaller footprint, better compatibility with node-webkit)
+
+`scripts/build-requirejs.js`: r.js build file (uses requirejs, might cause problems with globale require of node-webkit and requirejs)
+
+`scripts/main.js`: main requirejs config of application and start entry point
+
+`scripts/testrunner.js`: main testrunner js file, starts a test cycle
+
 <h2>Installation</h2>
 `npm install -d`
 

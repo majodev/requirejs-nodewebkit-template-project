@@ -29,10 +29,15 @@ Go to `localhost:8080` and enjoy
 <h2>Directory layout</h2>
 
 `assets` all your assets, will be copied automatically to build with grunt task
+
 `build` (created via grunt build task) the optimized build app
+
 `build-templates` files that are used during the grunt build task
+
 `node_modules` (npm) 3rd party libs
+
 `release` (created via grunt release task) binary app for win/mac/linux
+
 `scripts` startup scripts for requirejs, r.js build config and testrunner
 
 `src/integration` YOUR app integration tests

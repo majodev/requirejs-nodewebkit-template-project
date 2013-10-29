@@ -63,7 +63,14 @@ Extracted from <a href="https://github.com/majodev/physiogame">physiogame</a>.
 
 `scripts/testrunner.js`: main testrunner js file, starts a test cycle
 
+<h2>Prerequisites</h2>
+
+* <a href="http://nodejs.org/download/">node.js and npm</a> must be installed!
+* <a href="http://bower.io/#installing-bower">bower</a> should be installed globally via npm!
+
 <h2>Installation</h2>
+`git clone https://github.com/majodev/requirejs-nodewebkit-template-project.git`
+
 `npm install -d`
 
 `bower update`

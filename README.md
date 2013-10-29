@@ -71,6 +71,8 @@ Extracted from <a href="https://github.com/majodev/physiogame">physiogame</a>.
 <h2>Installation</h2>
 `git clone https://github.com/majodev/requirejs-nodewebkit-template-project.git`
 
+`cd requirejs-nodewebkit-template-project`
+
 `npm install -d`
 
 `bower update`

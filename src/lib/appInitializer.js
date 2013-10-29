@@ -7,8 +7,8 @@
 define(["log", "underscore", "Poll", "appConfig"],
   function(log, _, Poll, appConfig) {
 
-    var appContainerElement = document.getElementById("appContainer"),
-      outputTemplate = _.template("running since <%= seconds %> seconds"),
+    var debugElement = document.getElementById("debugText"),
+      debugTemplate = _.template("running since <%= seconds %> seconds"),
       runningForSeconds = 0;
 
     (function preloading() {
@@ -31,7 +31,7 @@ define(["log", "underscore", "Poll", "appConfig"],
       runningForSeconds += 1;
 
       // output it directly to the node.
-      appContainerElement.innerHTML = outputTemplate({
+      debugElement.innerHTML = debugTemplate({
         seconds: runningForSeconds
       });
     }

@@ -2,11 +2,13 @@
 
 A template project for building node-webkit apps in require.js style. Provides complete integration for testing, building and releasing apps.
 
+The goal of this project is to provide an entry point for developing your own apps with require.js and node-webkit.
+
 Extracted from <a href="https://github.com/majodev/physiogame">physiogame</a>
 
 <h2>Features</h2>
 
-* example app that includes the libs <a href="http://lodash.com/">lodash</a>, <a href="https://github.com/pimterry/loglevel">loglevel</a> and <a href="https://github.com/mtrpcic/polljs">polljs</a> (shim).
+* example app, includes libs <a href="http://lodash.com/">lodash</a>, <a href="https://github.com/pimterry/loglevel">loglevel</a> and <a href="https://github.com/mtrpcic/polljs">polljs</a> (shim test).
 * folder structure and base files
 * requirejs configs for building, testing and development
 * grunt tasks

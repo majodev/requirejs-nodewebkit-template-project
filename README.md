@@ -67,7 +67,7 @@ Extracted from <a href="https://github.com/majodev/physiogame">physiogame</a>.
 
 * <a href="http://nodejs.org/download/">node.js and npm</a> must be installed!
 * <a href="http://bower.io/#installing-bower">bower</a> should be installed globally via npm!
-* (testing only) Download <a href="http://phantomjs.org/">phantomjs</a> bin and make it available in your PATH.
+* (testing only) download <a href="http://phantomjs.org/">phantomjs</a> bin and make it available in your PATH environment variable.
 
 <h2>Installation</h2>
 `git clone https://github.com/majodev/requirejs-nodewebkit-template-project.git`
@@ -103,7 +103,7 @@ Builds apps for win/mac/linux to the folder `release`.
 That's it! Easy huh?!
 
 <h2>Testing</h2>
-needs <a href="http://phantomjs.org/">phantomjs</a> bin in path!
+needs <a href="http://phantomjs.org/">phantomjs</a> bin in PATH environment variable!
 
 `grunt` or 
 

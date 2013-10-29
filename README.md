@@ -68,7 +68,7 @@ Extracted from <a href="https://github.com/majodev/physiogame">physiogame</a>
 
 `bower update`
 
-Fire up your http-server in project root, e.g. <a href="https://npmjs.org/package/http-server">simple http-server for node</a> 
+Fire up your http-server in project root, e.g. <a href="https://npmjs.org/package/http-server">simple http-server for node</a> is straightforward: `npm install http-server -g`.
 
 `http-server -c-1`
 
@@ -79,7 +79,7 @@ Go to `localhost:8080` and enjoy
 
 The grunt task `grunt build` takes care of all js/css minifying and assets/templates copying to the folder `build`. 
 
-Fire up your http-server in project root, e.g. <a href="https://npmjs.org/package/http-server">simple http-server for node</a>
+Fire up your http-server in project root, e.g. <a href="https://npmjs.org/package/http-server">simple http-server for node</a> is straightforward: `npm install http-server -g`.
 
 `http-server -c-1`
 

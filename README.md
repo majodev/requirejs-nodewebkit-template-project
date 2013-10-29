@@ -2,20 +2,20 @@
 
 A template project for building node-webkit apps in require.js style. Provides complete integration for testing, building and releasing apps.
 
-The goal of this project is to provide an entry point for developing your own apps with require.js and node-webkit.
+The goal of this project is to provide an entry point for developing your own apps with <a href="http://requirejs.org/">requirejs</a> and <a href="https://github.com/rogerwang/node-webkit">node-webkit</a>.
 
-Extracted from <a href="https://github.com/majodev/physiogame">physiogame</a>
+Extracted from <a href="https://github.com/majodev/physiogame">physiogame</a>.
 
 <h2>Features</h2>
 
 * example app, includes libs <a href="http://lodash.com/">lodash</a>, <a href="https://github.com/pimterry/loglevel">loglevel</a> and <a href="https://github.com/mtrpcic/polljs">polljs</a> (shim test).
 * folder structure and base files
 * requirejs configs for building, testing and development
-* grunt tasks
-  * building via r.js (almond or requirejs)
-  * testing with mocha/chai on phantomjs
-  * copying assets, minifying css
-  * release builds for win/mac/linux (node-webkit)
+* grunt tasks 
+  * build via r.js (<a href="https://github.com/jrburke/almond">almond</a> or requirejs)
+  * test via <a href="http://visionmedia.github.io/mocha/">mocha</a> and <a href="http://chaijs.com/">chai</a> in <a href="http://phantomjs.org/">phantomjs</a>
+  * automate release builds for win/mac/linux with <a href="https://github.com/mllrsohn/grunt-node-webkit-builder">grunt-node-webkit-builder</a>
+  * automate copying assets, minifying css, uglyfing js, ...
 
 <h2>Directory layout</h2>
 
@@ -101,5 +101,7 @@ needs <a href="http://phantomjs.org/">phantomjs</a> bin in path!
 
 <h2>Copyright and Licenses</h2>
 MIT license
+
+See LICENSE.md for further information
 
 (c) 2013 Mario Ranftl (<a href="http://www.majodev.com">majodev</a>).

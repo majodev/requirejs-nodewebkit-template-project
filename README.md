@@ -13,7 +13,7 @@ Extracted from <a href="https://github.com/majodev/physiogame">physiogame</a>.
 * requirejs configs for building, testing and development
 * grunt tasks 
   * build via r.js (<a href="https://github.com/jrburke/almond">almond</a> or requirejs)
-  * test via <a href="http://visionmedia.github.io/mocha/">mocha</a> and <a href="http://chaijs.com/">chai</a> in <a href="http://phantomjs.org/">phantomjs</a>
+  * test via <a href="http://mochajs.org/">mocha</a> and <a href="http://chaijs.com/">chai</a> in <a href="http://phantomjs.org/">phantomjs</a>
   * automate release builds for win/mac/linux with <a href="https://github.com/mllrsohn/grunt-node-webkit-builder">grunt-node-webkit-builder</a>
   * automate copying assets, minifying css, uglyfing js, ...
 
